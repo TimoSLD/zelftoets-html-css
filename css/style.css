@@ -16,10 +16,163 @@ p{
 
 #grid-container{
     background-color: white;
-    max-width: 1000px;
     margin: auto;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 200px 100px 50px 100px 300px 400px 60px;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 200px 110px 60px 200px 200px 60px;
+    max-width: 1000px;
 }
 
+#header{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url('../img/dieren.jpg');
+    background-size: cover;
+    margin: 25px 0 25px 0;
+    max-width: 360px; 
+     
+}
+
+ul{
+    background-color:black;
+    margin: 0 0 50px 0;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+li{
+    display: inline-block;
+    background-color: #A0522D	;
+    margin: 0 25px 0 90px;
+    padding: 0 20px 0 20px;
+    line-height: 60px;
+}
+
+li:hover{
+    background-color: white;
+}
+
+#image1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    max-width: 420;    
+}
+
+#text1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    max-width: 420;
+    margin-top: 40px;      
+}
+
+#text2{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    max-width: 420;
+    margin-top: 40px;    
+}
+
+#image2{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    max-width: 420;
+         
+}
+
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 8;
+    grid-row-end: 9;   
+    background-color: black;
+}
+
+#p-footer{
+    margin: 0px 0 0 400px;
+    color: white;
+}
+
+
+#grid-container2{
+    background-color: white;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 200px 110px 200px 200px 200px 60px;
+    max-width: 1000px;
+}
+
+#leeuw-image{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    max-width: 420;   
+}
+
+#text1-1{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-bottom: 20px;
+     
+}
+
+#text1-2{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin-bottom: 20px;
+
+}
+
+#text1-3{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin-bottom: 20px;
+   
+}
+
+#image1-1{
+    grid-column-start: 8;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url('../img/leeuw1.jpg');
+    background-size: cover;
+}
+
+#image1-2{
+    grid-column-start: 8;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url('../img/leeuw2.jpg');
+    background-size: cover;
+}
+
+#image1-3{
+    grid-column-start: 8;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-image: url('../img/leeuw3.jpg');
+    background-size: cover;
+}
