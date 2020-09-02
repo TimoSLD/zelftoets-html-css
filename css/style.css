@@ -87,8 +87,7 @@ li:hover{
     grid-column-end: 11;
     grid-row-start: 4;
     grid-row-end: 5;
-    max-width: 420;
-         
+    max-width: 420;         
 }
 
 
@@ -174,5 +173,63 @@ footer{
     grid-row-start: 5;
     grid-row-end: 6;
     background-image: url('../img/leeuw3.jpg');
+    background-size: cover;
+}
+
+#grid-container3{
+    background-color: white;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 200px 110px 120px 200px 120px 60px;
+    max-width: 1000px;
+}
+
+#long-image{
+    margin-bottom: 20px;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url('../img/longolifant.jpg');
+    background-size: cover;
+
+}
+
+#blok1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: grey;
+    margin-right: 50px;
+}
+
+#blok2{
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: grey;
+    margin-left: 50px;
+}
+
+h1{
+    background-color: black;
+    padding-left: 130px;
+    color: white;
+}
+
+#p-blok{
+    padding-left: 20px;
+}
+
+#long-image2{
+    margin-top: 20px;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-image: url('../img/longolifant.jpg');
     background-size: cover;
 }
