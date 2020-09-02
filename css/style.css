@@ -1,0 +1,25 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+}
+
+a { text-decoration: none; }
+
+h1{
+    font-size: 24px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p{
+    font-size: 14px;
+}
+
+#grid-container{
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 100px 50px 100px 300px 400px 60px;
+}
+
