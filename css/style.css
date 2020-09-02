@@ -233,3 +233,86 @@ h1{
     background-image: url('../img/longolifant.jpg');
     background-size: cover;
 }
+
+#grid-container4{
+    background-color: white;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 200px 110px 100px 100px 190px 190px 60px;
+    max-width: 1000px;
+}
+
+#blokje1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url('../img/giraf1.jpg');
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#blokje2{
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url('../img/giraf2.jpg');
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#blokje3{
+    grid-column-start: 8;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url('../img/giraf3.jpg');
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#tekst{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    
+}
+
+#groot-blok{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background-image: url('../img/giraf3.jpg');
+    background-size: cover;
+}
+
+#kleinblokje1{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-image: url('../img/girafklein.jpg');
+    background-size: cover;
+}
+
+#kleinblokje2{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-image: url('../img/girafklein2.jpg');
+    background-size: cover;
+}
+
+#girafblok{
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background-image: url('../img/giraf5.jpg');
+    background-size: cover;
+}
